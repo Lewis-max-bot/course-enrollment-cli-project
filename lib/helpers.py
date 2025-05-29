@@ -1,4 +1,4 @@
-from .models import CONN, CURSOR
+from models import CONN, CURSOR
 
 def create_student_course_table():
     CURSOR.execute("""
